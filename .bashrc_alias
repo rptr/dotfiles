@@ -7,8 +7,12 @@ alias -- -="cd -"
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 alias ghcup='TMPDIR=/media/rpj/files2/tmp ghcup'
-alias cgrep='grep --color=always -rn'
 
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
+
+alias term='lxterminal'
+
+alias mullvad-off='mullvad always-require-vpn set off; mullvad disconnect'
+alias mullvad-on='mullvad always-require-vpn set on; mullvad connect'
