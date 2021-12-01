@@ -141,3 +141,9 @@ autocmd FileType asm set noexpandtab shiftwidth=12 softtabstop=0 syntax=nasm tab
 
 " allow g <C-a> on letters
 set nrformats+=alpha
+
+" tabbing
+nnoremap <C-j> :tabprevious<CR>
+nnoremap <C-k> :tabprevious<CR>
+nnoremap <C-b> :tabnew<CR>
+nnoremap <C-q> :tabclose<CR>
